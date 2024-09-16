@@ -16,8 +16,16 @@ public class Main {
 		System.out.println("Welcome to Mad Libs!");
 		System.out.println("What's your name?");
 		String name = in.nextLine();
-		System.out.println("One day, "+name+" wrote a Mad Lib in class!");
-
+		
+        System.out.println("Give me a number");         
+	    int num1 = in.nextInt();
+        System.out.println("give me a place.");	
+	    //flush
+        in.nextLine();
+        String place = in.nextLine();
+        System.out.println("One day, "+name+ " wrote " +num1+ " Mad Libs projects in "+place  );
+        
 	}
 
 }
+// oh my gosh oh my goodness. qiuytrueyiqghjsdh.  
