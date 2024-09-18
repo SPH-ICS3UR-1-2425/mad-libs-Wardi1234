@@ -25,9 +25,17 @@ public class Main {
 	    //flush    in.nextLine();
         double decNumber = in.nextDouble(); 
         in.nextLine();
-        
+        System.out.println("We know you had a partner in crime");
+        System.out.println("Give me a name");
+        String name2 = in.nextLine();
+        System.out.println("We searched your house and couldn't find the packages");
+        System.out.println("Where did you keep the packages? give me a place");
         String place = in.nextLine();
-        System.out.println("One day, "+name+ " wrote " +num1+ " Mad Libs projects in "+place  );
+        System.out.println("Why have you done all this?"); 
+        System.out.println("give us an anwser `")
+        
+        
+        System.out.println("One day, "+name+ " wrote " +num1+ " Mad Libs projects in "+name2  );
     
         
         
